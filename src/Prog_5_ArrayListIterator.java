@@ -8,8 +8,6 @@ Prog_5_ArrayListIterator obj = new Prog_5_ArrayListIterator();
 obj.colours();  //call method into main method
         }
 
-
-
     public void colours() {
         ArrayList<String> coloursList = new ArrayList<>(); //create list
         //add items to list

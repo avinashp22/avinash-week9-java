@@ -13,7 +13,7 @@ tube();
                 "Euston", "Euston Square", "Farringdon"};
 
         //Multidimensional Array
-        String line[][] = new String[11][13];
+        String line[][] = new String[11][11];
 
         line[0][0] = "Bakerloo Line";
         line[0][1] = "Baker Street";
@@ -87,9 +87,9 @@ tube();
 
 
         //scanner declaration
-        Scanner scr = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
         System.out.println("Enter Tube Station Name between A to F in Zone1: ");
-        String s = scr.nextLine();
+        String s = scn.nextLine();
         String c = "";
 
 
@@ -101,7 +101,7 @@ tube();
         }
 
 
-        //reading multidimensional array & checking lines passing through station as per user input
+        //reading  array & checking lines passing through station as per user input
         if (s.equalsIgnoreCase(c)) {
             System.out.println(s + " station is in Zone 1");
             System.out.println("Lines Passing through station " + s + " are: ");
