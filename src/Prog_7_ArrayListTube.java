@@ -1,3 +1,6 @@
+/**
+ * 7. Write a Java program to test if an array list is empty or not
+ */
 import java.util.ArrayList;
 
 public class Prog_7_ArrayListTube {
@@ -18,13 +21,13 @@ public class Prog_7_ArrayListTube {
         name.add("Hammersmith");
 
         //Checking list is not empty
-        System.out.println(name.isEmpty() + " Array list is not empty");
+        System.out.println(" Is this list empty? " + name.isEmpty());
 
-        //-------------------------------------------
+
 
         //Declare empty list
         ArrayList<String> name2=new ArrayList<>();
         //Checking list is empty
-        System.out.println(name2.isEmpty() + " Array list is empty");
+        System.out.println(" Is this list empty? " + name2.isEmpty() );
     }
 }

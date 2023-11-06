@@ -1,3 +1,7 @@
+/**
+ * 9. Create a HashMap object called people that will store String keys and Integer
+ * values: And use for each loop to iterate the value from Map
+ */
 import java.util.HashMap;
 import java.util.Map;
 

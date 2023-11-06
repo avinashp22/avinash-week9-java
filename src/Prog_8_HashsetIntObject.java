@@ -1,3 +1,8 @@
+/**
+ * 8. Use a HashSet that stores Integer Objects. Store the number 4, 7 and 8 to Sets.
+ * Show which numbers between 1 and 10 are in the set. (Hint: use for loop and if
+ * else
+ */
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,9 +28,9 @@ public class Prog_8_HashsetIntObject {
         {
             if
             (numbers.contains(i))
-            {System.out.println(i + " is in the set.");}
+            {System.out.println(" yes " + i + " is in the set");}
             else
-            {System.out.println(i + " is not in the set.");}
+            {System.out.println(" no " + i + " is not in the set");}
         }
     }
 }

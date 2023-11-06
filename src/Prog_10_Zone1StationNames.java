@@ -1,3 +1,7 @@
+/**
+ * 10. Write a programme that tells you which line passes through particular stations.
+ * Just use Zone 1 stations name
+ */
 import java.util.Scanner;
 
 public class Prog_10_Zone1StationNames {
@@ -9,11 +13,11 @@ tube();
     public static void tube() {
         //Single dimension Array to declare the Stations
         String station[] = {"Aldgate", "Aldgate East", "Angel", "Baker Street", "Bank", "Barbican", "Bayswater", "Blackfriars", "Bond Street",
-                "Borough", "Cannon Street", "Chancery Lane", "Charing Cross", "Covent Garden", "Earl's Court", "Edgware Road", "Embankment",
+                "Borough", "Cannon Street", "Chancery Lane", "Charing Cross", "Covent Garden", "Earls Court", "Edgware Road", "Embankment",
                 "Euston", "Euston Square", "Farringdon"};
 
         //Multidimensional Array
-        String line[][] = new String[11][11];
+        String line[][] = new String[12][13];
 
         line[0][0] = "Bakerloo Line";
         line[0][1] = "Baker Street";
@@ -38,7 +42,7 @@ tube();
         line[2][1] = "Bayswater";
         line[2][2] = "Blackfriars";
         line[2][3] = "Cannon Street";
-        line[2][4] = "Earl's Court";
+        line[2][4] = "Earls Court";
         line[2][5] = "Edgware Road";
         line[2][6] = "Embankment";
 
@@ -66,7 +70,7 @@ tube();
 
         line[6][0] = "Piccadilly Line";
         line[6][1] = "Covent Garden";
-        line[6][2] = "Earl's Court";
+        line[6][2] = "Earls Court";
 
         line[7][0] = "Victoria";
         line[7][1] = "Euston";
@@ -75,8 +79,8 @@ tube();
         line[8][1] = "Bank";
 
         line[9][0] = "Jubilee";
-        line[9][1] = "Baker Steet";
-        line[9][2] = "Bond Steet";
+        line[9][1] = "Baker Street";
+        line[9][2] = "Bond Street";
 
         line[10][0] = "Metropolitan";
         line[10][1] = "Aldgate";
@@ -103,9 +107,7 @@ tube();
 
         //reading  array & checking lines passing through station as per user input
         if (s.equalsIgnoreCase(c)) {
-            System.out.println(s + " station is in Zone 1");
-            System.out.println("Lines Passing through station " + s + " are: ");
-            System.out.println("_______________________________________________");
+            System.out.println("Lines Passing through " + s.toUpperCase() + " station are: ");
             // Logic to find the Line names from the given input from the user
 
             for (int i = 0; i < line.length; i++) {
@@ -116,7 +118,7 @@ tube();
                 }
             }
         } else {
-            System.out.println(s + " Station is not in Zone 1");
+            System.out.println(s + " Station is not in Zone 1 or you have spelt it wrong");
         }
 
 
