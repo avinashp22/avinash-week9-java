@@ -13,16 +13,16 @@ public class Prog_9_HashMapPeople {
     }
 
     public void people() {
-        Map<String, Integer> name = new HashMap<>(); // create map
+        Map<String, Integer> people = new HashMap<>(); // create map
         //add items to map
-        name.put("Amy", 1);
-        name.put("John", 2);
-        name.put("Tony", 3);
-        name.put("Randy", 4);
-        name.put("Grace", 5);
-        name.put("Italy", 6);
+        people.put("Amy", 1);
+        people.put("John", 2);
+        people.put("Tony", 3);
+        people.put("Randy", 4);
+        people.put("Grace", 5);
+        people.put("Italy", 6);
 
-        for (Map.Entry<String, Integer> map : name.entrySet()) {
+        for (Map.Entry<String, Integer> map : people.entrySet()) {
             System.out.println(map.getKey() + " " + map.getValue());
         }
     }

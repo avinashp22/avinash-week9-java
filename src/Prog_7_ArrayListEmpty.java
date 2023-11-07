@@ -3,10 +3,10 @@
  */
 import java.util.ArrayList;
 
-public class Prog_7_ArrayListTube {
+public class Prog_7_ArrayListEmpty {
 
     public static void main(String[] args) {
-       Prog_7_ArrayListTube obj = new Prog_7_ArrayListTube();
+       Prog_7_ArrayListEmpty obj = new Prog_7_ArrayListEmpty();
        obj.tube();
     }
 
