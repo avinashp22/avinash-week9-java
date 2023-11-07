@@ -27,10 +27,10 @@ public class Prog_11_ArrayListComparison {
     public class Programme_11_ArrayListComparison {
         public static void main(String[] args) {
 
-            compareArrayList();// calling method to main method directly
+            arrayList();// calling method to main method directly
         }
 
-        public static void compareArrayList() {
+        public static void arrayList() {
             ArrayList<String> c1 = new ArrayList<String>();
             c1.add("Red");
             c1.add("Green");
