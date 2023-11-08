@@ -24,7 +24,6 @@
 
 public class Prog_11_ArrayListComparison {
 
-    public class Programme_11_ArrayListComparison {
         public static void main(String[] args) {
 
             arrayList();// calling method to main method directly
@@ -55,4 +54,4 @@ public class Prog_11_ArrayListComparison {
 
 
 
-}
+

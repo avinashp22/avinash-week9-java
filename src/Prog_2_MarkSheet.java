@@ -41,8 +41,10 @@ public class Prog_2_MarkSheet {
             int rollNumber = scn.nextInt();
             System.out.println("Enter Maths Marks: ");
             double mathsMarks = scn.nextDouble();
+
             System.out.println("Enter Science Marks: ");
             double scienceMarks = scn.nextDouble();
+
             System.out.println("Enter English Marks: ");
             double englishMarks = scn.nextDouble();
 
